@@ -47,5 +47,5 @@ with open('ans.txt', 'w') as res:
     print(file=res)
     print('similarities for each student:', file=res)
     for s in range(23):
-        print('stud.txt', *d[s], 'total num of tasks:', str(len(st[s])) + ',', 'total similarities:', st1[s], file=res)
+        print('stud', *d[s], 'total num of tasks:', str(len(st[s])) + ',', 'total similarities:', st1[s], file=res)
 print('PROCESS DONE SUCCESSFULLY!')
