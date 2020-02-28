@@ -1,2 +1,6 @@
 # bdz_generator
-For calculus purposes
+Запускаем
+python
+'''
+python3 gen.py
+'''
