@@ -3,7 +3,7 @@ end = int(input('last task number = '))
 N = int(input('number of students = '))
 tasks = [list()] * begin
 
-print('processing tasks from', begin, 'to', end)
+print('processing tasks from', begin + 1, 'to', end)
 with open('pin', 'r') as fin:
     pi = fin.readline().rstrip()
     for task in range(begin, end):
